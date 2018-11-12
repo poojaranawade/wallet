@@ -22,3 +22,20 @@ maintained correctly.
 - Design and implement appropriate Java classes demonstrating good Object-Oriented Design principles.
 - Define and implement appropriate exception classes.
 - Include appropriate unit/integration tests coverage including any concurrent usage of library
+
+# How to use
+This application has 
+**Get Methods**
+- /login: get login page
+- /user/email/{email}: get user by email
+- /user/id/{id}: get user by ID
+- /user/getBalance/{id}: get balance for given user id
+- /user/transaction/{id} : get all transactions for given user id
+
+**Post Methods**
+- /registration : creat new User wallet, new information in request body
+- /user/transaction/{type} : create new transaction of given type, amount given in request body
+- /user/getNtransaction/{id} : get N transactions for given user id, N given in request body
+
+**Put Methods**
+- /user/{id} : update given user id, new information in request body
