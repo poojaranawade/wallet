@@ -24,7 +24,8 @@ maintained correctly.
 - Include appropriate unit/integration tests coverage including any concurrent usage of library
 
 # How to use
-This application has 
+This application has following intercation points
+
 **Get Methods**
 - /login: get login page
 - /user/email/{email}: get user by email
